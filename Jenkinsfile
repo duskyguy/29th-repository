@@ -130,3 +130,4 @@ def version() {
     def matcher = readFile('pom.xml') =~ '<version>(.+)</version>'
     return matcher ? matcher[0][1] : null
 }
+    }
